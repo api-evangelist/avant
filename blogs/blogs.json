@@ -1,0 +1,14 @@
+{
+  "repo": "avant",
+  "feeds": [
+    {
+      "source": "https://www.avant.com",
+      "feed_url": "https://www.avant.com/blog/feed/",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-07-20T13:31:34Z"
+}

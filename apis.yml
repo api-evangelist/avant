@@ -1,8 +1,14 @@
 aid: avant
 name: Avant
-description: Avant is a company surfaced as a portfolio company of 500-global, qed-investors and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Avant is a Chicago-based financial technology company that provides consumer
+  credit products to middle-income U.S. consumers, primarily unsecured personal loans
+  of roughly $2,000-$35,000 (9.95%-35.99% APR, 24-60 month terms) for debt consolidation,
+  emergencies, home improvement, and other needs, alongside the Avant Credit Card issued
+  through WebBank. Founded in 2012 and backed by investors including QED Investors and
+  500 Global, Avant operates a mobile-first lending and card-servicing platform with
+  a customer help center, personal-finance blog, and SCRA support for military members.
+  Avant is a consumer-facing product company and does not publish a public developer
+  API or portal; this profile captures its public web, security, and support surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/avant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +17,30 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Lending
+- Personal Loans
+- Credit Cards
+- Consumer Finance
+- Banking
+image: https://www.avant.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/avant-vulnerability-disclosure.yml
+- type: Security
+  url: security/avant-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/avant-domain-security.yml
 - type: Website
-  url: https://argania.my
+  url: https://www.avant.com
+- type: Blog
+  url: https://www.avant.com/blog
+- type: HelpCenter
+  url: https://support.avant.com/
+- type: Support
+  url: https://support.avant.com/
+- type: PrivacyPolicy
+  url: https://www.avant.com/privacy/
+- type: TermsOfService
+  url: https://www.avant.com/terms-of-use/
+- type: WellKnown
+  url: well-known/avant-well-known.yml
+- type: SecurityTxt
+  url: well-known/avant-security.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
