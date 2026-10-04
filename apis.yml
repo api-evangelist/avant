@@ -44,7 +44,7 @@ created: '2026-07-17'
 modified: '2026-07-18'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Personal Loans
@@ -60,6 +60,7 @@ tags_raw:
 - Credit Cards
 - Consumer Finance
 - Banking
+- Financial-Services
 image: https://www.avant.com/favicon.ico
 apis: []
 maintainers:
